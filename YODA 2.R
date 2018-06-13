@@ -111,10 +111,7 @@ generateAllDataList <- function(timePointTimes)
 #
 generateDayDataMatrix <- function(fileName)
 {
-  # Importing Data from DAY 2 Document
-  
-  # Setting the Work Space to the apropriate file location for the Test Data
-  setwd("D:/R Stuff/Test Data")
+  # Importing Data from DAY 2 Documen
   
   # Inputting a Data Frame by reading the table on the .txt document.
   testWellDF = read.table(fileName,  fill = TRUE, header = TRUE)
